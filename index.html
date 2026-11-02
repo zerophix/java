@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Java 项目</title>
+  <meta name="description" content="Java 项目 - 通过 GitHub Pages 部署的静态页面">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>☕</text></svg>">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container">
+      <div class="logo">
+        <span class="logo-icon">☕</span>
+        <span class="logo-text">Java</span>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#about">关于</a></li>
+        <li><a href="#features">特性</a></li>
+        <li><a href="#contact">联系</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <h1 class="hero-title">Java <span class="accent">项目</span></h1>
+        <p class="hero-subtitle">一个通过 GitHub Pages 托管的静态页面项目</p>
+        <a href="#about" class="btn btn-primary">了解项目</a>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container">
+        <h2 class="section-title">关于本项目</h2>
+        <div class="card">
+          <p>这是一个使用 <strong>纯静态 HTML / CSS / JavaScript</strong> 构建的项目，由 GitHub Pages 免费托管和自动部署。</p>
+          <p>当你 <code>git push</code> 到 <code>main</code> 分支时，GitHub Actions 会自动将静态文件部署到 Pages。</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="features" class="section section-alt">
+      <div class="container">
+        <h2 class="section-title">技术栈</h2>
+        <div class="grid">
+          <div class="card feature-card">
+            <div class="feature-icon">🌐</div>
+            <h3>HTML5</h3>
+            <p>语义化页面结构</p>
+          </div>
+          <div class="card feature-card">
+            <div class="feature-icon">🎨</div>
+            <h3>CSS3</h3>
+            <p>响应式布局与主题</p>
+          </div>
+          <div class="card feature-card">
+            <div class="feature-icon">⚡</div>
+            <h3>JavaScript</h3>
+            <p>页面交互与动态效果</p>
+          </div>
+          <div class="card feature-card">
+            <div class="feature-icon">🚀</div>
+            <h3>GitHub Pages</h3>
+            <p>自动化持续部署</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <section id="contact" class="section">
+    <div class="container">
+      <h2 class="section-title">联系方式</h2>
+      <div class="card">
+        <p>如果你有任何问题或建议，欢迎通过 GitHub 与我联系。</p>
+        <a href="https://github.com/zerophix/java" target="_blank" rel="noopener" class="btn btn-outline">访问 GitHub 仓库</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Java Project · Powered by GitHub Pages</p>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

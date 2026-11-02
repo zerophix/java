@@ -1,0 +1,24 @@
+# ===== 缓存 / 本地 =====
+.cache/
+.DS_Store
+Thumbs.db
+
+# ===== 日志 =====
+*.log
+logs/
+
+# ===== IDE =====
+.idea/
+.vscode/
+*.iml
+
+# ===== 环境 / 构建 =====
+.env
+.env.*
+node_modules/
+dist/
+build/
+out/
+
+# ===== 系统 =====
+.Trash-*
